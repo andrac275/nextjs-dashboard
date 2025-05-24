@@ -4,13 +4,24 @@ This is the starter template for the Next.js App Router Course. It contains the 
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
 
-## Andrac commands
-Run pnpm i to install the project's packages.
-Terminal
+## Chapter 1
 
-```pnpm i```
+**Commands**
 
-Followed by pnpm dev to start the development server.
-Terminal
+Run **pnpm** i to install the project's packages.
 
-```pnpm dev```
+``` 
+pnpm i 
+```
+
+Followed by **pnpm dev** to start the development server.
+
+```
+pnpm dev
+```
+
+## Chapter 2
+
+[CLSX documentation](https://github.com/lukeed/clsx)
+
+
