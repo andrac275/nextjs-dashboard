@@ -56,3 +56,10 @@ This is Image component example:
 - className is divided in 2 parts. Firts is for mobile phones and second (md) for desktop and tablets. "md" is from a certain size
     - *block md:hidden* will show the Image in phone and hide it on desktop and tablets
     - *hidden md:block* will hide on phone screens and show on desktop and tablets
+
+## Chapter 4 Routes
+- Folders inside 'app' can be used in the url (Example: *http://localhost:3000/dashboard/*) if I have a folder called "dashboard" inside "app". The folder must have a file called **page.tsx**, that's what is **public** and shown when you search for the url.
+- layout.tsx file. Dashboards have some sort of navigation that is shared across multiple pages. In Next.js, you can use a special layout.tsx file to create UI that is shared between multiple pages. Check the layout.tsx file inside app/dashboard. **One benefit of using layouts in Next.js is that on navigation, only the page components update while the layout won't re-render.**
+
+
+
