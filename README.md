@@ -62,4 +62,6 @@ This is Image component example:
 - layout.tsx file. Dashboards have some sort of navigation that is shared across multiple pages. In Next.js, you can use a special layout.tsx file to create UI that is shared between multiple pages. Check the layout.tsx file inside app/dashboard. **One benefit of using layouts in Next.js is that on navigation, only the page components update while the layout won't re-render.**
 
 
-
+## Chapter 5 Navigation between pages
+- *import Link from 'next/link'* to navigate using Link component instead of '<a ...>'
+- *import {usePathname} from 'next/navigation';* usePathname is used to know in which Page is the user located.
